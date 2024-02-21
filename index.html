@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Sourav_Pundir</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sourav</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hello I'm Sourav Pundir</h2>
+                <p class="hero_desc">Full Stack Developer</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="Images/ben-kolde-bs2Ba7t69mM-unsplash (2).jpg" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <p> I started my carrear at 20,
+                     have dedication, patience, and eagerness to learn every day and play with technology.<br>
+                     <br>Journey and Expertise:
+                     My journey began with an innate curiosity for technology, which led me to pursue a Master's degree in Computer Applications. Throughout my academic journey, I've immersed myself in the world of coding, Full-stack. My goal is to merge technical excellence with creative thinking, crafting websites that seamlessly blend functionality and aesthetics.<br>
+                     
+                     <br> Mindset:
+                     I thrive in collaborative environments where ideas are shared and refined. I believe in the power of teamwork to bring diverse perspectives to the table, fostering innovation and problem-solving. I'm excited to engage with fellow developers, designers, and professionals to collectively drive growth and learning.<br>
+                     
+                    <br>Continuous Learning:
+                     Full-stack Web development is a rapidly evolving field, and I'm committed to staying ahead of the curve. Whether it's exploring new languages, frameworks, or design trends, I'm always eager to expand my skill set and deliver cutting-edge solutions.<br>
+                     
+                     <br>Future Goals:
+                     I'm on a mission to create user-centric websites that make a positive impact. Looking ahead,Meeting both technical and consumer needs. I aspire to work with dynamic teams on challenging projects that push the boundaries of creativity and technology. I'm excited to contribute my expertise, learn from industry leaders, and make a mark in the ever-evolving world of tech development.<br>
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS (Framework - Bootstrap)</li>
+                            <li>JavaScript (Framework - React)</li>
+                            <li>Python(Framework - Node.js) </li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Website Development</h4>
+                        <p class="card-text mt-3">A website development service involves the creation and deployment of websites for individuals, businesses, or organizations. It includes tasks such as web design, coding, and programming to build functional and visually appealing websites
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Website Design</h4>
+                        <p class="card-text mt-3">A website design service focuses on creating the visual and aesthetic elements of a website. It involves the planning, conceptualization,
+                             and artistic execution of the site's layout, color scheme, typography, and overall visual style.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">Website Deployment</h4>
+                        <p class="card-text mt-3">A website deployment service involves the process of making a website accessible and operational on the internet. This includes tasks such as configuring web servers, uploading website files,
+                             setting up databases, and ensuring that the website functions properly in the live environment.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-search'></i>
+                        <h4 class="card-title mt-3">SEO</h4>
+                        <p class="card-text mt-3">SEO (Search Engine Optimization) service involves strategies and techniques employed to improve a website's visibility on search engines like Google. The goal is to increase organic (non-paid) traffic to the website by optimizing various elements,
+                             including content, keywords, meta tags, and backlinks
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-shield-alt'></i>
+                        <h4 class="card-title mt-3">DevOps</h4>
+                        <p class="card-text mt-3">DevOps (Development and Operations) service involves a set of practices that aim to improve collaboration and communication between software development and IT operations teams.
+                             The goal is to streamline the software development lifecycle, enhance deployment frequency 
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-wrench'></i>
+                        <h4 class="card-title mt-3">QA</h4>
+                        <p class="card-text mt-3">QA (Quality Assurance) service involves the systematic process of ensuring that a product or service meets specified quality standards and fulfills customer requirements. In the context of software development,
+                             QA services focus on testing and validating software to identify and fix defects or issues
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/Youtube_Clone.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">YouTube Clone</h4>
+                            <p class="card-text">YouTube clone is a website or application that mimics the core features and functionalities of the popular video-sharing platform, YouTube. It typically allows users to upload, view, share, and comment on videos. Key features include user accounts, channels, video uploading and streaming, social interactions, and recommendation algorithms. The goal of creating a YouTube clone is to replicate the success of the original platform, providing a similar experience for users to discover, watch, and share video content</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/Quiz.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                            <p class="card-text">It is a mobile or web application designed to present a series of questions to users, allowing them to answer and test their knowledge on various topics. These apps often include features such as multiple-choice questions, true/false statements, and sometimes multimedia elements like images or videos. Users can typically progress through the quiz, receive immediate feedback on their answers, and see their final scores at the end. Some quiz apps may also offer leaderboards, time constraints, or social sharing options to enhance the user experience and engagement</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/Product_Landing.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Landing Page</h4>
+                            <p class="card-text">It is a standalone web page designed to showcase and promote a specific product. It typically provides concise information about the product, highlights its key features and benefits, and includes compelling visuals like images or videos. The main goal of a product landing page is to encourage visitors to take a specific action, such as making a purchase or signing up for more information. Effective product landing pages often have a clear call-to-action, a user-friendly design, and persuasive content to drive conversions.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/Messaging_Service.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Messaging Service</h4>
+                            <p class="card-text">A platform or application that enables users to send and receive text, multimedia, or other types of messages in real-time. These services facilitate communication between individuals or groups, allowing for instant exchanges of information. Key features of messaging services include chat, file sharing, and often support for voice and video calls. Popular examples of messaging services include WhatsApp, Facebook Messenger, Telegram, and Slack, each offering different features and capabilities for diverse communication needs</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Myntra.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Myntra Clone</h4>
+                            <p class="card-text">A Myntra clone is a replica or imitation of the Myntra e-commerce platform, created with similar features and functionalities. Myntra is a popular online fashion and lifestyle marketplace. A clone typically includes features like user registration, product browsing, shopping cart, secure payment options, order tracking, and user profiles. The goal of creating a Myntra clone is to replicate the successful e-commerce model of Myntra, allowing users to buy fashion and lifestyle products through a similar online shopping experience</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/Blog_App.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Blog App</h4>
+                            <p class="card-text">Blog app is a software application designed for creating, managing, and publishing blog content. It typically provides features for users to write and edit articles, organize posts by categories or tags, and publish them on a website. Users can often customize the appearance of their blogs through templates or themes. Additionally, blog apps may include functionality for managing comments, interacting with readers, and analyzing website traffic</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
+                <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Thanabhawan,+Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                    </iframe>
+                    </div>
+                    <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                    </style>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href=" https://www.facebook.com/thakursourav.pundir.1" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/thakur_sourav_pundir_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/SouravPund26800" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/sourav-pundir-20a7941a0/
+            " target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/SouravPundir" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+</html>
